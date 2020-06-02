@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MoZayik</title>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
+      integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script|Merienda:700&display=swap"
+      rel="stylesheet"
+      />
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+      <link rel="stylesheet" href="style.css" /> -->
+      
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="home">
+    <!-- Header -->
+<div class="container">
+  
+  <nav id="nav-menu">
+      <!-- <header class="header"> -->
+        <div class="header">
+
+          <h1 class="animated rollIn"><span>M</span>oZayik</h1>
+          <div class="clicker">
+          <i class="fa fa-bars" id="hamburger" ></i></div>
+        </div>
+        
+          <!-- nav toggle -->
+          
+            
+          
+    
+        <!-- Nav Bar -->
+        <div class="nav-menu">
+          <!-- <div class="clicker"> -->
+            <!-- <i class="fa fa-bars fa-2x" ></i> -->
+          <!-- </div> -->
+          <ul class="menu" id="clickerMenu">
+            <li class="active"><a href="#home"class="nav-link">Home</a></li>
+            <li><a href="#music" class="nav-link">Music/Videos</a></li>
+            <!-- <li><a href="#dj">Videos</a></li> -->
+            <li><a href="merch.html" class="nav-link">Merch</a></li>
+            <li><a href="#bio" class="nav-link">Bio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          
+        </div>
+        </nav> 
+      
+      <!-- </header> -->
+</div>
+  
+   <div class="hero vidContainer">
+     <div class="title">
+     <h2 class="border border-orange-400 vid-title">SPIRIT <span>MIND</span> BODY </h2>
+     <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolore cumque fuga ex et. Porro?</p>
+    </div>
+     <div class="video-bg">
+       <!-- <img src="./img/Zay_Top.jpg" alt=""> -->
+     <video id="h-vid" src="video\Who I Am_h.mp4" type="video/mp4" poster="./img/zay-poster.jpg" autoplay muted loop plays-inline>
+     </video>
+    </div>
+   </div>
+
+   <!-- <style>
+     html {
+       scroll-behavior: smooth;
+     }
+     
+   </style> -->
+
+          <!-- Showcase w Latest video clip -->
+        <div class="media">
+          <section class="main-music" id="music">
+            <div id="mic">
+            <div class="lib">
+              <ul>
+                  <li>
+                    <div class="samples">
+                          <span>Pseudo</span>
+                          <span class="icon-fade" id="play"><i  class="fas fa-play secSpan pSpan"></i></span>
+                          <div id='bars'>
+                            <div class='bar'></div>
+                            <div class='bar'></div>
+                            <div class='bar'></div>
+                            <div class='bar'></div>
+                            <div class='bar'></div>
+                            <div class='bar'></div>
+                            <div class='bar'></div>
+                            <div class='bar'></div>
+                            <div class='bar'></div>
+                            <div class='bar'></div>
+                          </div>
+                          <div class="sample1">
+                            <audio class="song" id="audio1" src="./music/Pseudo.mp3"></audio>
+                          </div>
+                        </div>
+                    </li>
+                    <li>
+                      <div class="samples">
+                        <span>Rubber & Glue</span>
+                        <span class="icon-fade" id="play2"><i  class="fas fa-play secSpan"></i></span>
+                        <div id='bars'>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                        </div>
+                        <div class="sample2">
+                          <audio class="song" id="audio2" src="./music/Rubber & Glue.mp3"></audio>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="samples">
+                        <span>Creator</span>
+                        <span class="icon-fade" id="play3"><i  class="fas fa-play secSpan"></i></span>
+                        <div id='bars'>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                        </div>
+                        <div class="sample3">
+                          <audio class="song" id="audio3" src="./music/Creator.mp3"></audio>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                    <div class="samples">
+                        <span>For You</span>
+                        <span class="icon-fade" id="play4"><i  class="fas fa-play secSpan"></i></span>
+                        <div id='bars'>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                        </div>
+                        <div class="sample4">
+                          <audio class="song" id="audio4" src="./music/For You.mp3"></audio>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="samples">
+                        <span>Tell Me</span>
+                        <span class="icon-fade" id="play5"><i  class="fas fa-play secSpan"></i></span>
+                        <div id='bars'>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                          <div class='bar'></div>
+                        </div>
+                        <div class="sample5">
+                          <audio class="song" id="audio5" src="./music/Tell Me.mp3"></audio>
+                        </div>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+            <div>
+
+              <!-- audio sources -->
+              <!-- <audio>
+                <source id="song" scr="/Website Snippets/Pseudo.mp3" type="audio/mpeg">
+                <source id="song" scr="/Website Snippets/Rubber & Glue.mp3" type="audio/mpeg">
+                <source id="song" scr="/Website Snippets/Creator.mp3" type="audio/mpeg">
+                <source id="song" scr="/Website Snippets/For You.mp3" type="audio/mpeg">
+                <source id="song" scr="/Website Snippets/Tell Me.mp3" type="audio/mpeg">
+              </audio>
+               -->
+            </div>
+          </div>
+          </section>
+
+          <section class="showcase">
+            <div class="vidWrapper" id="dj">
+            <div class="vid_one vids">
+              <iframe class="vid_one vids" src="https://www.youtube.com/embed/zXpr8o46Z_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/zXpr8o46Z_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+              
+            </div>
+              <div class="vid_two vids">
+                <iframe class="vid_two vids" src="https://www.youtube.com/embed/vWca6NFkb08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/vWca6NFkb08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+              
+            </div>
+            
+              <div class="vid_three vids">
+                <iframe class="vid_three vids" src="https://www.youtube.com/embed/l-BpKtsdJug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <!-- <div class="contact-p">
+              <p>Latest single by MoZayik <br>Available Now On Spotify and Soundcloud</p>
+            </div> -->
+          </div>
+          </section>
+        </div>
+
+          <section class="showcase" id="bio">
+            <div class="container" id="pics">
+              <!-- <div class="social_block" id="fog"> -->
+                <img src="img\Zay_Fog.jpg" alt="MoZayik" width="300" id="fog">
+                
+                <div class="para para-back">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet esse eos ad suscipit asperiores animi illo numquam recusandae minus commodi deserunt corrupti assumenda nam molestias iste, reprehenderit laboriosam facere explicabo quaerat harum repellendus iusto modi optio. Modi, perferendis inventore. </p>
+                </div>
+                <img src="img\Zay_Fro.jpg" alt="MoZayik" width="300" id="fro">
+              <div class="para2 para-back">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet esse eos ad suscipit asperiores animi illo numquam recusandae minus commodi deserunt corrupti assumenda nam molestias iste, reprehenderit laboriosam facere explicabo quaerat harum repellendus iusto modi optio. Modi, perferendis inventore.</p>
+              </div>
+              <img src="img\Zay_pray.jpg" alt="MoZayik" width="300" id="pray">
+              <div class="para3 para-back">
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet esse eos ad suscipit asperiores animi illo numquam recusandae minus commodi deserunt corrupti assumenda nam molestias iste, reprehenderit laboriosam facere explicabo quaerat harum repellendus iusto modi optio. Modi, perferendis inventore.</p>
+              </div> 
+            </div>
+          </section>
+      
+    
+   
+    <!-- Coming soon -->
+    <!-- <section class="showcase" id="newMusic">
+      <div>
+        <h1>"New Music Coming Soon..."</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, deserunt!</p>
+      </div>
+    </section> -->
+
+   
+    <!-- Pic Boxes -->
+    <!-- <section class="showcase" id="pics">
+      <div>
+
+      </div>
+    </section> -->
+    <section class="social" id="contact">
+        <div class="socialBox socialBox-1">
+           <a href="https://www.instagram.com/zayikmo/?hl=en" class="insta" target="_blank"> <i class="fab fa-instagram fa-2x"></i>
+            <h3>Instagram</h3></a>
+          
+        </div>
+        <div class="socialBox socsialBox-2 sound-border">
+           <a href="https://soundcloud.com/zayikmo" class="sound" target="_blank"><i class="fab fa-soundcloud fa-2x"></i>
+            <h3>Soundcloud</h3></a> 
+          
+        </div>
+          <div class="socialBox">
+            <a href="https://www.youtube.com/channel/UC31p8op1LMazUNtbCAJhNNg" class="yt" target="_blank"><i class="fab fa-youtube fa-2x"></i>
+            <h3>Youtube</h3></a>
+          
+        </div>
+      </section>
+    
+    <!-- <div class="clr"></div> -->
+
+  </div>
+    <footer class="footer">
+      <div class="footer-text">
+      <p>"<span>M</span>oZayik Music &copy; 2019"</p>
+    </div>
+    </footer>
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+
+  
+
+    <script src="scroll.js"></script>
+  </body>
+</html>
