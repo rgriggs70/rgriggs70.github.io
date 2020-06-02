@@ -35,6 +35,8 @@ $(document).ready(function () {
   });
 });
 
+
+
 // let sample = document.getElementsByClassName("icon-fade");
 
 // sample.addEventListener("click", () => {
@@ -117,7 +119,7 @@ window.addEventListener("load", () => {
   // console.log(songs[1]);
 
   samples.forEach((sample, index) => {
-    sample.addEventListener("mouseover", function () {
+    sample.addEventListener("click", function () {
       // songs[index].currentTime = 0;
       // songs[index].play();
 
@@ -156,13 +158,23 @@ window.addEventListener("load", () => {
   });
 });
 
-let navLink = document.querySelectorAll(".nav-link");
-let miniNav = document.querySelector(".nav-menu");
+// const navLink = document.getElementById("#clickerMenu").addEventListener("click", hideNav);
+const miniNav = document.querySelector("nav-menu");
+const link = document.querySelectorAll('nav-link');
 
-navLink.addEventListener("click", hideLinks);
-// console.log("hello");
+// // console.log("hello");
 
-function hideLinks() {
-  // miniNav.classList.add(".hidden-link");
-  console.log("hello");
-}
+
+// function hideNav() {
+//  miniNav.classList.add(".hidden-link");
+//   console.log("hello");
+// }
+
+ link.addEventListener("click", function(e) {
+  miniNav.classList.add(".hidden-link");
+  e.preventDefault();
+  
+
+  //  console.log('Tested!');
+ });
+

@@ -264,8 +264,9 @@ nav {
 }
 
 #mic {
-  /* display: flex;
-  align-items: center; */
+  display: flex;
+  align-items: center; 
+  justify-content: center;
   /* overflow-y: auto; */
   /* max-height: 80vh; */
   background: url("./img/mic1.jpg") no-repeat center center/cover;
@@ -321,7 +322,7 @@ p {
 
 .para-back {
   background-color: rgba(253, 253, 253, 0.3);
-  box-shadow: 4px 2px 8px #ff7315;
+  box-shadow: 4px 2px 8px black;
   border-radius: 8px;
 }
 
@@ -486,7 +487,7 @@ nav a {
   text-decoration: none;
   text-align: center;
   list-style: none;
-  width: 100%;
+  max-width: 80%;
   padding: 5px;
   margin: 30px 5px;
   border: 2px solid var(--secondary-color);
@@ -562,7 +563,7 @@ ul li div span .pSpan {
   margin: -30px 0 0 -20px;
   position: absolute;
   top: 35px;
-  width: 40px;
+  width: 20px;
   padding-top: 28px;
 }
 
@@ -919,6 +920,8 @@ ul li div span .pSpan {
   }
 }
 
+
+
 @media screen and (max-width: 768px) {
   nav li:hover {
     background-color: var(--grey-color);
@@ -932,6 +935,8 @@ ul li div span .pSpan {
     text-align: center;
     align-items: center;
   }
+  
+  
 
   .hidden-link {
     display: none;
@@ -939,6 +944,7 @@ ul li div span .pSpan {
 
   #nav-menu li {
     padding: 0px;
+    width: 100%;
     /* margin: 10px; */
   }
 
@@ -977,6 +983,12 @@ ul li div span .pSpan {
     font-size: 15px;
     padding: 10px;
     margin-top: 15px;
+  }
+  
+  #liSpace {
+    /* color: red; */
+    margin-right: 40px;
+    font-size: 1rem;
   }
 
   .fa-bars {
@@ -1073,8 +1085,30 @@ ul li div span .pSpan {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  #liSpace {
+    /* color: red; */
+    margin-right: 40px;
+    font-size: 1rem;
+  }
+
+  .lib ul {
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+#pics #fog, #fro, #pray {
+  /* display: block; */
+  width: 100%;
+  height: 100%;
+}
+
+}
+
 @media screen and (max-width: 2000px) {
-  #dj {
+#dj {
     background: url("./img/dj1.jpg") no-repeat center center/cover;
     box-shadow: 4px 2px 8px black;
     border-radius: 8px;
@@ -1102,7 +1136,7 @@ ul li div span .pSpan {
     /* position: relative; */
     /* visibility: hidden; */
     height: 30px;
-    right: 20px;
+    /* right: 20px; */
     margin: -30px 0 0 -20px;
     position: absolute;
     top: 35px;
@@ -1110,11 +1144,22 @@ ul li div span .pSpan {
     padding-top: 28px;
     padding-right: 20px;
   }
+
+  
 }
 
+
+
 @media screen and (max-width: 700px) {
+  #mic {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+  }
+
   .lib ul {
-    margin: 0;
+    padding: 0;
+    margin-left: 20px;
     width: 100%;
   }
 
