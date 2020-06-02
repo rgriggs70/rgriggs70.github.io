@@ -1100,8 +1100,8 @@ ul li div span .pSpan {
 }
 
 #pics #fog, #fro, #pray {
-  /* display: block; */
-  width: auto;
+  display: block;
+  /* width: ; */
   height: auto;
 }
 
